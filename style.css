@@ -1,0 +1,49 @@
+.hidden-content {
+    display: none;
+}
+
+#disclaimer-overlay {
+    font-family: 'Kanit', sans-serif;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#disclaimer-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin: 10%;
+}
+
+#accept-button {
+    font-family: 'Kanit', sans-serif;
+    font-size: large;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#original-page-content {
+    font-family: "MS Sans Serif", sans-serif;
+}
+
+@media (max-width: 600px) {
+    #disclaimer-content {
+        max-width: 90%;
+        padding: 30px;
+    }
+}
